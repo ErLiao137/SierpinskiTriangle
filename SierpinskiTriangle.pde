@@ -7,7 +7,6 @@ public void setup() {
 public void draw() {
   background(255);
   sierpinski(0, 500, l);
-  System.out.print(l);
 }
 public void sierpinski(double x, double y, double len) {
   if (len <= base) {
